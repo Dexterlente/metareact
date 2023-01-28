@@ -18,7 +18,7 @@ const Navbar = () => {
         <li className='p-4'>About</li>
         <li className='p-4'>Contact</li>
       </ul>
-      <div onClick={handleNav} className='block md:hidden'>
+      <div onClick={handleNav} className='block lg:hidden'>
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
       </div>
       <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
